@@ -1,0 +1,16 @@
+
+
+@media screen and (min-width: 769px) {
+  .navbarcontracted{
+    max-width:  calc(100% - 73px);;
+    width: calc(100% - 73px);
+    margin-left: 73px;
+  }
+
+  .navbarexpanded{
+    width: calc(100% - 250px);
+    margin-left: 250px;
+  }
+
+}
+
