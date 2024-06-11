@@ -50,6 +50,8 @@ function App() {
       <div className={`${navOpen ? "navbarexpanded" : "navbarcontracted"}  `}>
         <Navbar />
         <Routes>
+
+          <Route path='/' element={<Dashboard />} />
           <Route path="/patients" element={<Patients />} />
           <Route path="/report" element={<MedicalReport />} />
           <Route path="/doctors" element={<Doctors />} />
