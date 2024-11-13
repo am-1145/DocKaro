@@ -105,7 +105,7 @@ const RecentPatients = () => {
     },
   ];
   return (
-    <div className="w-full max-h-48 md:max-h-full border-0 border-gray-500  md:h-full p-5  bg-black rounded-xl overflow-y-scroll overflow-x-hidden vscrollbar">
+    <div className="w-full max-h-48 md:max-h-50 border-0 border-gray-500  md:h-full p-5  bg-black rounded-xl overflow-y-scroll overflow-x-hidden vscrollbar">
       {patients.map((patient, index) => (
         <div key={index} className="flex h-auto px-3 py-1 items-center">
           <div className="h-full flex items-center justify-center">
